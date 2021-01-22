@@ -22,3 +22,17 @@ int main(void)
      float z = (float) x / (float) y;
      printf("%f\n", z);
 }
+//conditons
+
+int main(void)
+{
+   char c = get_char("Do you agree?");
+   if(c == 'y' || c == 'Y')
+   {
+       printf("agreed.\n");
+   }
+   else if (c == 'n' || c == 'N')
+   {
+       printf("not agreed \n");
+   }
+}
