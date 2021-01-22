@@ -12,7 +12,6 @@ int main(void)
     printf("%li\n", x + y);
 }
 //another example
-int main(void)
 {
     // get numbers from user
     int x = get_int("x: ");
@@ -24,7 +23,6 @@ int main(void)
 }
 //conditons
 
-int main(void)
 {
    char c = get_char("Do you agree?");
    if(c == 'y' || c == 'Y')
@@ -35,4 +33,17 @@ int main(void)
    {
        printf("not agreed \n");
    }
+}
+// more
+void meow(void)
+{
+    printf("meow\n");
+}
+
+int main(void)
+{
+  for (int i = 0; i < 3; i++)
+  {
+      meow();
+  }
 }
